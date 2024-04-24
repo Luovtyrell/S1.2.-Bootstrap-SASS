@@ -12041,4 +12041,8 @@ p {
 
 .nav-link:hover {
   color: gray;
+}
+
+.card.h-100 .card-img-top {
+  width: 150px;
 }/*# sourceMappingURL=style.css.map */
