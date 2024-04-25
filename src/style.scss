@@ -3,6 +3,13 @@ $font-family-sans-serif: "Rubik", sans-serif;
 $primary: #5265e1;
 $secondary: #fa5959;
 
+
+
+$accordion-button-active-bg: transparent;
+$accordion-button-focus-box-shadow: #9c141400;
+$accordion-icon-active-color: $primary;
+$accordion-button-icon: url("../Recursosentrega S1.2.-20240418/Imagenes/icon-arrow.svg");
+
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 //Cortar lo que queda fuera de la pagina
@@ -97,4 +104,13 @@ p {
       width: 150px;
     }
   }
+}
+
+.dots {
+  border-top: 3px dotted lightgrey;
+}
+
+.accordion-item {
+  border-left: none;
+  border-right: none;
 }
