@@ -3,8 +3,6 @@ $font-family-sans-serif: "Rubik", sans-serif;
 $primary: #5265e1;
 $secondary: #fa5959;
 
-
-
 $accordion-button-active-bg: transparent;
 $accordion-button-focus-box-shadow: #9c141400;
 $accordion-icon-active-color: $primary;
@@ -19,7 +17,7 @@ body {
 }
 
 //Estilo navbar
-.navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link, footer {
   letter-spacing: 0.1rem;
   font-size: 12px;
   border-radius: 4px;
@@ -113,4 +111,18 @@ p {
 .accordion-item {
   border-left: none;
   border-right: none;
+}
+
+.p-footer {
+  letter-spacing: 0.5rem;
+  font-size: 10px;
+}
+
+.btn-secondary{
+  letter-spacing: 0.05rem;
+  background-color: $secondary;
+  border-color: $secondary;
+  padding: 9px 20px;
+  font-size: 12px;
+  border-radius: 4px;
 }

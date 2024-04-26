@@ -11970,7 +11970,7 @@ body {
   overflow-x: hidden;
 }
 
-.navbar-nav .nav-item .nav-link {
+.navbar-nav .nav-item .nav-link, footer {
   letter-spacing: 0.1rem;
   font-size: 12px;
   border-radius: 4px;
@@ -12054,4 +12054,18 @@ p {
 .accordion-item {
   border-left: none;
   border-right: none;
+}
+
+.p-footer {
+  letter-spacing: 0.5rem;
+  font-size: 10px;
+}
+
+.btn-secondary {
+  letter-spacing: 0.05rem;
+  background-color: #fa5959;
+  border-color: #fa5959;
+  padding: 9px 20px;
+  font-size: 12px;
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
